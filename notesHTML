@@ -1,0 +1,22 @@
+mobileinputtypes.com = tags de programação de html para adaptar para celular
+
+Como selecionar, ou não selecionar, objetos específicos dentro de um código:
+
+Seleciona todos os objetos dentro de todas as classes
+main > p {
+    background: red; 
+}
+
+Localizar todos os objetos depois de uma imagem:
+img ~ p {
+    background: yellow
+} 
+
+selecionar todos os objetos e excluir objetos específicos:
+.principal p:not(#missao) {
+    background: orange;
+}
+
+
+GRIDS:
+Alternativa às tabelas, os grids são uma maneira de dividir a tela em colunas
